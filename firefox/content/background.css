@@ -63,7 +63,7 @@
   }
 
   .search-handoff-button .fake-caret {
-    color: #ffffff !important;
+    background-color: #ffffff !important;
   }
 
   @media (width < 610px) {
