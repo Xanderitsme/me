@@ -4,10 +4,10 @@
   }
 
   body::before {
-    background: var(--background-image) top;
+    background-image: var(--background-image) !important;
   }
 
   .logo-and-wordmark .logo {
-    background: var(--background-image) no-repeat center !important;
+    background-image: var(--background-image) !important;
   }
 }
