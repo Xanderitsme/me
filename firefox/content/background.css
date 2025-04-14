@@ -1,0 +1,67 @@
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+  body::before {
+    content: '';
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  /* body::after {
+    content: '';
+    width: 100%;
+    height: 2%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(40, 40, 70, 100),
+      rgba(0, 0, 0, 0)
+    );
+  } */
+
+  .logo-and-wordmark .logo {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 60px !important;
+    width: 200px !important;
+    border-radius: 10px;
+    transition: 0.2s;
+  }
+
+  .logo-and-wordmark .wordmark {
+    display: inline-block !important;
+    margin-inline-start: 16px !important;
+    background-size: 150px !important;
+    height: 64px !important;
+    width: 170px !important;
+  }
+
+  .search-handoff-button {
+    background: rgba(72, 72, 100, 0.3) !important;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(2px) !important;
+    transition: 0.2s;
+    color: #ffffff !important;
+  }
+
+  .search-handoff-button:hover {
+    background: rgba(72, 72, 100, 0.5) !important;
+    backdrop-filter: blur(5px) !important;
+  }
+
+  .fake-textbox {
+    opacity: 0.8 !important;
+    color: #ffffff !important;
+  }
+
+  @media (width < 610px) {
+    .logo-and-wordmark .logo {
+      width: 100px !important;
+    }
+  }
+}

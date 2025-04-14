@@ -1,0 +1,24 @@
+@-moz-document url(about:privatebrowsing) {
+  body {
+    --background-image: url('assets/private-browsing.jpg');
+
+    padding: 0px !important;
+    justify-content: flex-start !important;
+  }
+
+  body::before {
+    background: var(--background-image) top;
+  }
+
+  .showPrivate {
+    padding-top: 134px !important;
+  }
+
+  .logo-and-wordmark .logo {
+    background: var(--background-image) no-repeat center !important;
+  }
+
+  .info {
+    display: none;
+  }
+}

@@ -1,0 +1,50 @@
+@-moz-document domain(chatgpt.com) {
+  :root {
+    --white: #fff !important;
+    --black: #000 !important;
+    --gray-50: #ececf2 !important;
+    --gray-100: #d5d6e2 !important;
+    --gray-200: #b0b2c9 !important;
+    --gray-300: #8689aa !important;
+    --gray-400: #676a90 !important;
+    --gray-500: #525577 !important;
+    --gray-600: #434461 !important;
+    --gray-700: #434461 !important;
+    --gray-750: #3a3c52 !important;
+    --gray-800: #1a1b26 !important;
+    --gray-900: #16161e !important;
+    --gray-950: #16161e !important;
+  }
+
+  .dark {
+    --main-surface-background: #212121e6;
+    --message-surface: #323232d9;
+    --dot-color: var(--white);
+    --text-primary: var(--gray-100);
+    --text-secondary: var(--gray-400);
+    --text-tertiary: var(--gray-500);
+    --text-quaternary: var(--gray-600);
+    --text-placeholder: #ffffffcc;
+    --text-error: #f93a37;
+    --border-xlight: #ffffff0d;
+    --border-light: #ffffff1a;
+    --border-medium: #ffffff26;
+    --border-heavy: #ffffff33;
+    --border-xheavy: #ffffff40;
+    --border-sharp: #ffffff0d;
+    --main-surface-primary: var(--gray-800);
+    --main-surface-primary-inverse: var(--white);
+    --main-surface-secondary: var(--gray-750);
+    --main-surface-secondary-selected: #ffffff26;
+    --main-surface-tertiary: var(--gray-700);
+    --sidebar-surface-primary: var(--gray-900);
+    --sidebar-surface-secondary: var(--gray-800);
+    --sidebar-surface-tertiary: var(--gray-750);
+    --sidebar-title-primary: #f0f0f080;
+    --sidebar-body-primary: #ededed;
+    --sidebar-icon: #a4a4a4;
+    --link: #7ab7ff;
+    --link-hover: #5e83b3;
+    --surface-error: 249 58 55;
+  }
+}

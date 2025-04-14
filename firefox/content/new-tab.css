@@ -1,0 +1,13 @@
+@-moz-document url(about:home), url(about:newtab) {
+  body {
+    --background-image: url('assets/new-tab.jpg');
+  }
+
+  body::before {
+    background: var(--background-image) top;
+  }
+
+  .logo-and-wordmark .logo {
+    background: var(--background-image) no-repeat center !important;
+  }
+}
